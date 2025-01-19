@@ -1,0 +1,139 @@
+﻿#mapwrapper {
+    font-family: "Nunito", sans-serif;
+    max-width: 1450px;
+    margin: 0 auto;
+    padding: 0 0;
+    background-color: transparent;
+    min-width: 220px;
+    width: 100%;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: relative;
+}
+#mapbase svg#mapleft {
+    -webkit-filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.2));
+}
+#mapbase svg#mapright {
+    -webkit-filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.2));
+}
+#myjstip {
+    font: 14px/16px Trebuchet MS, Helvetica, Arial, sans-serif;
+    display: none;
+    max-width: 40%;
+    padding: 5px;
+    border: 1px solid #404040;
+    color: #404040;
+    z-index: 1000;
+    float: left;
+    position: absolute;
+    background: rgba(265, 265, 265, 0.9);
+    word-break: keep-all;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+}
+#myjstip p {
+    margin: 0 !important;
+    color: #404040 !important;
+}
+#myjstip img {
+    float: left;
+    padding: 3px;
+    max-width: 100%;
+}
+
+footer {
+    margin-top: -138px !important;
+}
+
+@media screen and (max-width: 767px) {
+    #mapbase svg#mapleft,
+    #mapbase svg#mapright {
+        display: none;
+    }
+    #centerContiner {
+        background: none !important;
+        height: auto !important;
+        margin-left: 0px !important;
+        margin-top: 30px !important;
+    }
+    #mapwrapper {
+        display: none;
+    }
+    #page-sub-title {
+        margin-left: 0px !important;
+    }
+
+    footer {
+        margin-top: 85px !important;
+    }
+}
+/* @media screen and (max-width: 320px) {
+    #mapbase svg#mapleft {
+        height: 110px;
+    }
+}
+@media screen and (max-width: 400px) and (min-width: 321px) {
+    #mapbase svg#mapleft {
+        height: 130px;
+    }
+    #mapbase svg#mapright {
+        height: 130px;
+    }
+}
+@media screen and (max-width: 480px) and (min-width: 401px) {
+    #mapbase svg#mapleft {
+        height: 170px;
+    }
+    #mapbase svg#mapright {
+        height: 170px;
+    }
+}
+@media screen and (max-width: 568px) and (min-width: 481px) {
+    #mapbase svg#mapleft {
+        height: 190px;
+    }
+    #mapbase svg#mapright {
+        height: 190px;
+    }
+}
+@media screen and (max-width: 685px) and (min-width: 569px) {
+    #mapbase svg#mapleft {
+        height: 230px;
+    }
+    #mapbase svg#mapright {
+        height: 230px;
+    }
+}
+@media screen and (max-width: 767px) and (min-width: 686px) {
+    #mapbase svg#mapleft {
+        height: 270px;
+    }
+    #mapbase svg#mapright {
+        height: 270px;
+    }
+} */
+@media screen and (min-width: 768px) {
+    #mapbase svg#mapleft {
+        position: absolute;
+        top: 200px;
+        left: 50px;
+        height: 601px;
+    }
+    #mapbase svg#mapright {
+        position: absolute;
+        top: 137px;
+        right: -200px;
+        margin-right: 40px;
+    }
+}
+/* THIS IS TO HIDE AN AREA IF NEEDED
+#myjs2, #myjsvn2 {
+  display: none;
+}*/

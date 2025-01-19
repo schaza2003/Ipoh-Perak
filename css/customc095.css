@@ -1,0 +1,182 @@
+
+.font-card{
+    font-size: 12px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .nav {
+        margin-top: 90px !important;
+    }
+
+    .logo {
+        /* margin-top: 80px !important; */
+        margin-left: -15px !important;
+        width: 140px !important;
+    }
+
+    #packages-hero {
+        background-position: 0 30px !important;
+        text-align: center;
+    }
+
+    #packages-hero h1 {
+        font-size: 1.5rem !important;
+    }
+
+    #packages-hero .subtitle {
+        color: white !important;
+        font-size: 0.8rem !important;
+    }
+
+    .nav .nav-link {
+        font-size: 0.8em !important;
+        padding: 0.5rem 2.2rem !important;
+    }
+
+    #btn-back-to-top {
+        display: none;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .nav {
+        margin-top: 90px !important;
+    }
+
+    .logo {
+        /* margin-top: 60px !important; */
+        width: 140px !important;
+        margin-left: 25px !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .modalCard {
+        background-color: #4468E2; 
+        border: none; 
+        border-radius: 16px; 
+        width: 100%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    /* body {
+        background-color: brown !important;
+    } */
+
+    .logo {
+        margin-top: 40px !important;
+        width: 140px !important;
+        margin-left: 10px !important;
+    }
+
+    #navbar {
+        margin-top: 20px !important;
+        font-size: 12px;
+    }
+
+    .form-control {
+        display: none;
+    }
+
+    .modalCard {
+        background-color: #4468E2; 
+        border: none; 
+        border-radius: 16px; 
+        width: 27.986rem;
+    }
+    .modalContainer { 
+        position: absolute;
+    }
+    .shadowModal {
+        
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    /* body {
+        background-color: green !important;
+    } */
+
+    .logo {
+        margin-top: 40px !important;
+        width: 140px !important;
+        margin-left: 10px !important;
+    }
+
+    .form-control {
+        display: block;
+    }
+
+    #navbar {
+        margin-top: 20px !important;
+        font-size: 1rem;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    /* body {
+        background-color: yellow !important;
+    } */
+
+    .logo {
+        margin-top: 40px !important;
+        width: 180px !important;
+        margin-left: 10px !important;
+    }
+
+    #navbar {
+        margin-top: 20px !important;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1400px) {
+    /* body {
+        background-color: red !important;
+    } */
+
+    .nav {
+        margin-top: 0px !important;
+    }
+
+    .logo {
+        margin-top: 30px !important;
+        margin-left: 30px !important;
+    }
+
+    #navbar {
+        margin-top: 100px !important;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1600px) {
+    /* body {
+        background-color: blue !important;
+    } */
+
+    .nav {
+        margin-top: 0px !important;
+    }
+
+    .logo {
+        width: 220px !important;
+        margin-top: 60px !important;
+        margin-left: 60px !important;
+    }
+
+    #navbar {
+        margin-top: 85px !important;
+    }
+}
